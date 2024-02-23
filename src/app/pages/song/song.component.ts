@@ -23,7 +23,7 @@ export class SongComponent implements OnInit {
     if (this.songData?.link === '') {
       this.route.navigate(['/']);
       window.alert(
-        `No Song Available For Selected Album with ${this.songData.id}`
+        `No Song Available For Selected Playlist`
       );
     }
   }
